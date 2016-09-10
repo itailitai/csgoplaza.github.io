@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  itai</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/hint.css">
+		<link rel="stylesheet" href="css/animate.css">
+		
+
+    
+    
+    
+  </head>
+
+  <body>
+    <div id='upperMenu' style="position:relative;z-index:300;">
+      
+      <div>
+        <img id='img' src="http://i.imgur.com/hjZwHri.png" alt="" title="" border="0" style="width: 60px; height: 60px;">
+      <h3 id='title'> CSGOPLAZA </h3> <h3 id='com'> .COM </h3>
+      </div>
+      
+      <ul>
+        <li> <a href="index.html"> HOME </a> </li>
+        <li><a class="active" href="cpanel.html"> CONTROL PANEL </a></li>
+        <li><a href=""> MY ACCOUNT </a></li>
+        <li><a href="shop.html"> SHOP </a></li>
+      </ul>
+        <span > <img id='avatar' src="http://1.bp.blogspot.com/-XaPPe3eCMwE/VZSjxETf2OI/AAAAAAAANzE/3uOIgVpxds0/s1600/avatar.png"> <div class='box'>
+		<div id='information' style='text-align: left; margin-left: 10px;'>
+		<p style='margin-bottom: 5px;'><img src='pics/icons/steam.png' style='position: relative;    margin-right: 4px;'>Steam ID: 123</p>
+		<p style='margin-bottom: 5px;margin-top:0;'><img src='pics/icons/firstname.png' style='position: relative;top: 3px; width:16px;    margin-right: 4px;'>First Name: bla</p>
+		<p style='margin-bottom: 5px;margin-top:0;'><img src='pics/icons/lastname.png' style='position: relative;top: 3px;    margin-right: 4px;'>Last Name: bla</p>
+		<p style='margin-bottom: 5px;margin-top:0;'><img src='pics/icons/balance.png' style='position: relative;top: 3px;    margin-right: 4px;'>Balance: 13.37$</p>
+		</div>
+		<input class="update" type="submit" value="Update">
+		</div>
+		
+		</span>
+    </div>
+	<div id='cpanel'>
+		<div id='black'>
+		<div id='cpanelMenu'> <a href="cpanel.html"> Status </a> <a onclick='rcon();'> Rcon console </a> <a href="index.html"> Option #2 </a> <a href="index.html"> Option #3 </a>  </div>
+		
+		<div id='status'>
+		<div><div style="width: 100%; background-color:#007fc4; height: 40px; border: 0;opacity:1;margin-top:100px;text-align: left;" > <h2 style='color:white;position: relative; top: 5px;margin-left: 52%;font-weight:lighter;'>Game Server Name</h2></div>
+		<div id='mapPhoto'> </div> </div>
+		<div style='text-align: left; margin-left: 51.9%; margin-top: 8px;'>
+		<p style='color:white;'>IP > 8.8.8.8</p>
+		<p style='color:white;'>RCON User > admin</p>
+		<p style='color:white;'>Rcon password > admin</p>
+		<p style='color:white;'>Server Status: Online</p>
+		</div>
+		<div id='connected'>8/10 Players Connected</div>
+		<div id='start'>Start</div>
+		<div id='stop'>Stop</div>
+		</div>
+		
+		<div id='rcon' style='margin-top: 2%;display:none;overflow-y: hidden;'>
+			<div id='consolearea'> </div>
+
+        <input id='console' type="text" placeholder="Type here..." required>
+        <button onclick='send()' type="submit">Send</button>
+
+		</div>
+		</div>
+		
+		
+		<script src="js/cpanel.js"></script>
+  
+  </body>
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>
